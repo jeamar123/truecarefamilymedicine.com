@@ -1,0 +1,395 @@
+/*
+Theme Name: 
+Theme URI: 
+Author: Billy Joel Ranario
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 
+*/
+
+/* ---------* THEME COLORS *--------- */
+/*
+RED - #ce1512
+LIGHT BLUE - #99b1bb
+BLUE - #1280d5
+GRAY - #b0b5b8
+
+Heading Text Color
+Blue - #6699CC
+Gray - #919191
+*/
+
+/* ---------* Fonts *---------------- */
+@import url('css/fonts.css') screen;
+/* ---------* end: Fonts *----------- */
+
+/* ---------* Reset CSS *------------ */
+* { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+body {
+	font-family: 'Trebuchet-ms', arial, sans-serif;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+} 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 5px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+	background-color: #6ACAE0;
+}
+
+h1 { 
+    font-size: 2.2em; 
+} 
+h2 { 
+    font-size: 2.0em;     
+} 
+h3 { 
+    font-size: 1.8em; 
+} 
+h4 { 
+    font-size: 1.6em;     
+} 
+h5 { 
+    font-size: 1.4em;     
+} 
+p { 
+    font-size: 1.2em;     
+}
+/*
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Header *---------------- */
+header.normal-state {
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #fff;
+	transition: all 0.8s ease-in-out;
+	webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+}
+header .navbar-brand img {
+	width: 300px;
+	webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+header.animate-header .navbar-brand img {
+	width: 200px;
+}
+header .header-contact-info {
+    text-align: right;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+   	webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+}
+header.animate-header .header-contact-info {
+	/*display: none;*/
+    margin-top: -40px;
+    visibility: hidden;
+}
+header .header-contact-info {
+    text-align: right;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+header .header-contact-info h4 {
+	margin-bottom: 0;
+    color: #777;
+}
+header.animate-header #main-menu {
+	/*margin-top: 30px;*/
+}
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+section#main-container {
+   
+}
+#newsletter-form button {
+	background-color: #E16201;
+}
+.featured-branding {
+    margin-top: 30px;
+    border-top: 1px solid #efefef;
+    padding: 40px 0 25px;
+}
+
+
+.heading-title {
+	color: #989898;
+    margin: 10px 0 25px;
+}
+.post-content,
+.home-sidebar
+{
+    margin: 40px 0 22px;
+}
+.post-content article h1,
+.post-content article h2,
+.post-content article h3, 
+.post-content article h4, 
+.post-content article h5, 
+.post-content article h6
+{
+	color: #6699CC;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.heading-title {
+	color: #989898;
+    margin: 10px 0 25px;
+}
+
+.post-content article p {
+	font-size: 14px;
+	color: #919191;
+	text-align: justify;
+}
+.post-content article ul {
+    list-style-type: circle;
+    padding-left: 35px;
+}
+.post-content article ul li {
+    color: #919191 !important;
+}
+.parallax-window {
+    min-height: 283px;
+    background: rgba(0,0,0,0.5);
+    padding: 50px 0;
+}
+.parallax-content-description {
+    color: #fff;
+    text-align: center;
+}
+.parallax-content-description p {
+    font-size: 18px;
+    color: #efefef;
+    margin: 0;
+}
+.parallax-content-description h4 {
+    margin-top: 15px;
+}
+.parallax-content-description a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 12px;
+    background-color: #0874C5;
+    padding: 10px 15px;
+    /*border: 1px solid;*/
+}
+.sidebar-heading {
+    color: #B3B9BF !important;
+}
+.sidebar-heading {
+    padding: 0 0 11px;
+    border-bottom: 1px solid #ededed;
+}
+.sidebar-content {
+    border: 1px solid #efefef;
+    padding: 25px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.row-posts {
+    width: 100%;
+    overflow: hidden;
+    margin: 21px 0;
+}
+.post-image {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 15px;
+}
+.sidebar-post-title a {
+    text-decoration: none;
+}
+.sidebar-post-title span {
+    display: block;
+    font-size: 12px;
+}
+.img-branding {
+	margin-bottom: 30px;
+}
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+.footer-contact-info {
+    padding: 30px 0;
+}
+.social-icons {
+    margin: 20px 0 0;
+    padding-left: 30px;
+}
+.social-icons a {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 4px;
+    width: 35px;
+    background-color: #0874C5;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+   	webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.social-icons a:hover {
+    background-color: #ce1512;
+}
+.web-info {
+    padding: 20px 0 0;
+	text-align: right;
+}
+.web-info h4,
+.web-info p
+{
+	margin: 0;
+	color: #6699CC;
+}
+.web-info p {
+    font-size: 14px;
+    margin: 7px 0;
+}
+.copyright {
+	font-size: 11px;
+    background-color: #0874C5;
+    color: #fff;
+    padding: 20px 0;
+}
+.copyright p {
+	margin: 0;
+}
+.copyright p:first-child {
+	color: #ABC5E0;
+    margin-bottom: 10px;
+}
+.copyright p a {
+    color: #fff;
+}
+
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+.border-gray {
+	width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.text-red {
+	color: #ce1512;
+}
+.text-light-blue {
+	color: #6699CC;
+}
+.img-responsive {
+	width: 100%;
+}
+.remove-side-padding {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.remove-margin {
+	margin: 0;
+}
+.animate-header {
+    border-bottom: 1px solid #ccc;
+    box-shadow: 1px 1px 9px #C3C2C2;
+}
+#reset-waypoint-target {
+	width: 100%;
+	height: 10px;
+    position: relative;
+    margin-top: -10px;
+}
+.spacer {
+	 min-height: 117px;
+}
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+.nav li a {
+	text-transform: capitalize;
+    color: #777;
+}
+.nav > li > a:hover, 
+.nav > li > a:focus,
+.nav > li.active > a
+{
+	text-decoration: none;
+	background: none;
+	color: #ce1512;
+}
+.navbar-brand {
+    padding: 0 15px;
+}
+.navbar {
+	margin: 0;
+}
+.navbar-toggle span.icon-bar {
+	background: #99b1bb;
+}
+.flexslider {
+    border: none; 
+}
+.flexslider .slides img {
+    width: 100%;
+}
+.flex-direction-nav li a {
+    width: 38px;
+    height: 38px;
+	opacity: 0.7;
+}
+.flex-direction-nav li a:hover {
+	opacity: 1;
+}
+.flex-direction-nav li .next {
+    background-position: -42px 0;
+    right: -3%;
+    display: none;
+	webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.flex-direction-nav li .prev {
+    background-position: 0px 0;
+    left: -3%;
+    display: none;
+	webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+/* ---------* end: Override *--------- */

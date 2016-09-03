@@ -1,0 +1,86 @@
+/* ---------* Reset CSS *------------ */
+/*
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Header *---------------- */
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+#page-banner {
+    height: 189px;
+}
+#page-banner .container {
+	height: 100%;
+}
+#page-banner .banner-content {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+	font-size: 20px;
+
+}
+#page-banner .banner-content h3 {
+	margin: 0;
+}
+.page-slogan-wrapper {
+	background-color: #dcdddd;
+}
+.page-slogan h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    padding: 20px 0;
+}
+.page-title {
+    margin-top: 40px;
+}
+.page-title h1 {
+    color: #95B3B9;
+    font-family: 'Raleway-bd';
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.post-content article h1, 
+.post-content article h2, 
+.post-content article h3, 
+.post-content article h4, 
+.post-content article h5, 
+.post-content article h6 {
+    margin-top: 30px !important;
+}
+.subscription-wrapper {
+    margin-bottom: 40px;
+}
+.subscription-wrapper p {
+    color: #919191;
+    font-size: 14px;
+    text-align: left;
+}
+.article-content article p img,
+.article-content article img 
+{
+    float: right;
+    margin: 0 0 15px 17px;
+    width: 300px; /* Sample width of image */
+}
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+.copyright {
+    border-top: 1px solid #fff;
+}
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+
+/* ---------* end: Override *--------- */

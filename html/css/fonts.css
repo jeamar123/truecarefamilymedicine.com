@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Trebuchet-ms';
+    src: url('../fonts/Trebuchet MS.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Raleway-reg';
+    src: url('../fonts/Raleway-Regular.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Raleway-bd';
+    src: url('../fonts/Raleway-Bold.ttf')  format('truetype');
+}

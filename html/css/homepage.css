@@ -1,0 +1,105 @@
+/* ---------* Reset CSS *------------ */
+/*
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Header *---------------- */
+header {
+/*	position: fixed;
+	width: 100%;
+	z-index: 10;
+	background: rgba(255,255,255,0.6);*/
+}
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+#sliding-banner {
+	/*min-height: 500px;*/
+}
+#sliding-banner .ls-l .img-responsive {
+	width: 100% !important;
+}
+.ls-l.img-content-slider {
+    left: 0 !important;
+    width: 100% !important;
+}
+.texts-content h2 {
+    font-size: 40px;
+    color: #69C;
+    text-shadow: 1px 1px 1px #fff;
+}
+.ls-l.texts-content {
+    margin-top: 218px !important;
+}
+.ls-l.texts-content.slider-text-2 {
+    margin-right: 300px !important;
+    float: right;
+    position: relative;
+}
+.ls-l.texts-content.slider-text-3 {
+    margin-top: 92px !important;
+    margin-left: 280px !important;
+}
+.flex-caption {
+    width: 100%;
+    padding: 2%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.3);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+    font-size: 24px;
+    line-height: 18px;
+    text-align: center;
+}
+.newsletter-wrapper {
+    background-color: #ededed;
+    margin-bottom: 30px;
+    text-align: right;
+    padding: 20px 0;
+}
+.box-container {
+	text-align: center;
+    margin-bottom: 30px;
+}
+.featured-icon {
+	margin-bottom: 20px;
+}
+.featured-icon .fa {
+    background: #6ACAE0;
+    border-color: #1280d5;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 5em;
+    padding: 30px 30px;
+    text-align: center;
+}
+.featured-title {
+	color: #989898;
+    margin: 35px 0 10px;
+}
+.featured-description p {
+    font-size: 14px;
+    color: #919191;
+}
+.text-hovered {
+    background: #fff !important;
+    color: #6ACAE0 !important;
+    box-shadow: 0 0 0 10px #6ACAE0;
+
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+
+/* ---------* end: Override *--------- */

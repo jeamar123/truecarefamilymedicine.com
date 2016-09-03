@@ -1,0 +1,91 @@
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1199px) {
+/*	#main-content,
+	.parallax-window .container,
+	footer .container
+	{
+	    width: 991px;
+	    margin: auto;
+	}*/
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.navbar-brand img {
+		width: 200px !important;
+	}
+	.navbar-right {
+	    margin-top: 5px;
+	}
+	.footer-contact-info div {
+		text-align: center;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header .header-contact-info {
+		display: none !important;
+	}
+	.navbar-brand img {
+		width: 140px !important;
+	}
+	.spacer {
+	    min-height: 53px !important;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.img-branding {
+		width: 100%;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 399px) {
+	.article-content article p img, .article-content article img {
+	    width: 100%;
+	}
+	.footer-contact-info div .logo-img img {
+		width: 100% !important;
+	}
+	.social-icons a {
+	    margin-bottom: 10px;
+	}
+}
+@media only screen and (max-width : 320px) {
+    
+}
